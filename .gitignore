@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Data and pre-trained weights (NOT released with this repository)
+data/
+weights/
+
+# Generated priors, samples, predictions and experiment outputs
+outputs/
+
+# Diffusers/logger runtime directories (guided_diffusion.logger.configure)
+checkpoint/
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+*.bak
+*.bak_*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
